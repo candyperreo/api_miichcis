@@ -1,0 +1,90 @@
+/* Fondo */
+body{
+    background-image: url("./imagenes/gatos.avif");
+}
+
+/* Boton de reseat */
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
+    height: 34px;
+    width: 112px;
+    border: none;
+    background: #ff362b34;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .button {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
+  .lable {
+    line-height: 50px;
+    font-size: 17px;
+    color: #FF342B;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .button:hover {
+    background: #ff362b52;
+  }
+  
+  .button:hover .svg-icon {
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+
+  /* Titulo */
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+font-size: 50px;
+top: 20px;
+}
+ 
+/* Imagenes */
+.contenedor {   
+    width: 450px; 
+    height: 450px; 
+    background-color: rgba(240, 248, 255, 0.5);
+    overflow: hidden;
+    border-top: 1rem solid #E9BABC;
+    border-right: 1rem solid black;
+    border-bottom: 1rem solid #E9BABC;
+    border-left: 1rem solid black;
+  }
+  .contenedor {
+    position: relative;
+    top: -25px;
+  }
+  
+.contenedor {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+  }
+  
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+  
